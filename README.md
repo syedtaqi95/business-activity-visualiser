@@ -1,11 +1,11 @@
 # Business Activity Visualiser (backend)
 
-Backend of business activity visualiser, [see demo deployed here](https://business-activity-visualiser.herokuapp.com/)
+Backend of business activity visualiser, [see demo deployed here](https://business-activity-visualiser.onrender.com/)
 
 Back-end API is served together with the frontend 
 
 - frontend [repository available here](https://github.com/syedtaqi95/business-activity-frontend)
-- [Heroku shell buildpack](https://github.com/niteoweb/heroku-buildpack-shell) used to clone frontend repository in build process to serve, see `.heroku/run.sh`
+- Shell build script [(previously Heroku)](https://github.com/niteoweb/heroku-buildpack-shell) used to clone frontend repository in build process to serve, see `.render/run.sh`
 
 <img src="https://i.imgur.com/OUafG0I.png"/>
 
@@ -57,7 +57,7 @@ or and object:
 
 ## Querying
 
-To view the frontend complete deployed application, navigate to: https://business-activity-visualiser.herokuapp.com/
+To view the frontend complete deployed application, navigate to: https://business-activity-visualiser.onrender.com/
 
 To access the underlying API, can use the `/api/geocodes` URL:
 
